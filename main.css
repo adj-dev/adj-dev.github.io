@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-.container {
-  background-color: red;
-}
-
 .banner {
   display: flex;
   height: 600px;
