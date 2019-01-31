@@ -5,7 +5,7 @@ body {
 .banner {
   display: flex;
   height: 600px;
-  background: url(cover.jpg);
+  background: url(images/cover.jpg);
   background-size: cover;
   justify-content: center;
 }
