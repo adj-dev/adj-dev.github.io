@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: red;
+}
+
+.banner {
+  display: flex;
+  height: 600px;
+  background: url('https://unsplash.com/photos/0PPw9irzLIw');
+  background-size: 100%;
+  justify-content: center;
+}
+
+.logo {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  margin: 180px 0;
+  width: 800px;
+}
+
+.logo img {
+  margin: 0 auto;
+  width: 500px;
+}
