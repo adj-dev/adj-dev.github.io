@@ -82,6 +82,32 @@ a:visited {
   padding: 0 40px;
 }
 
+/* ----- Older iPhones ----- */
+
+@media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .banner {
+    height: 60vh;
+  }
+
+  .logo {
+    width: 100%;
+    margin: 150px 0;
+  }
+
+  .logo img {
+    width: 250px;
+  }
+
+  .nav a {
+    font-size: 1.2em;
+    padding: 0 20px;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
 /* ----- iPhone X  ----- */
 
 @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
