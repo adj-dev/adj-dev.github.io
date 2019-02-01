@@ -2,14 +2,24 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 2em;
+  text-align: center;
+}
+
+p,
 a {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(40, 40, 40);
 }
 
 a,
 a:visited {
   text-decoration: none;
+}
+
+.container {
+  height: 80vh;
 }
 
 .banner {
@@ -32,13 +42,43 @@ a:visited {
   width: 500px;
 }
 
+/* ----- Gradient div ----- */
+
+.gradient {
+  height: 40vh;
+  background: rgb(255, 255, 255); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(255, 237, 157)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(255, 237, 157)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /* ----- Navigation div ----- */
 
 .nav {
   text-align: center;
 }
 .nav a {
+  font-family: 'Major Mono Display', monospace;
   font-size: 2.5em;
+  padding: 0 40px;
+}
+
+/* ----- Profile div ----- */
+
+.profile {
+  padding-top: 200px;
+  background-color: rgb(255, 237, 157);
+  height: 100%;
+}
+
+.content {
   padding: 0 40px;
 }
 
@@ -61,5 +101,9 @@ a:visited {
   .nav a {
     font-size: 1.5em;
     padding: 0 20px;
+  }
+
+  p {
+    font-size: 1.5em;
   }
 }
