@@ -155,7 +155,7 @@ div.content > div#section3 > p {
 
 /* ----- iPhone X  ----- */
 
-@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .banner {
     height: 60vh;
   }
