@@ -128,22 +128,28 @@ div.content > div#section3 > p {
     width: 250px;
   }
 
-  .nav a {
-    font-size: 1.2em;
-    padding: 0 20px;
-  }
-
-  .gradient {
-    height: 20vh;
-  }
-
   p {
     font-size: 1.2em;
   }
 
-  p#disclaimer {
-    letter-spacing: 0;
-    font-size: 0.8em;
+  div#section1,
+  div#section2,
+  div#section3 {
+    flex-direction: column;
+  }
+
+  div.content > div#section1 > p,
+  div.content > div#section2 > p,
+  div.content > div#section3 > p {
+    font-size: 1.2em;
+  }
+
+  div.content > div#section1 > img,
+  div.content > div#section2 > img,
+  div.content > div#section3 > img {
+    align-self: center;
+    width: 100%;
+    padding: 60px 0;
   }
 }
 
@@ -163,20 +169,27 @@ div.content > div#section3 > p {
     width: 300px;
   }
 
-  .nav a {
-    font-size: 1.5em;
-    padding: 0 20px;
-  }
-
-  .gradient {
-    height: 20vh;
-  }
-
   p {
     font-size: 1.5em;
   }
 
-  p#disclaimer {
-    letter-spacing: 0;
+  div#section1,
+  div#section2,
+  div#section3 {
+    flex-direction: column;
+  }
+
+  div.content > div#section1 > p,
+  div.content > div#section2 > p,
+  div.content > div#section3 > p {
+    font-size: 1.2em;
+  }
+
+  div.content > div#section1 > img,
+  div.content > div#section2 > img,
+  div.content > div#section3 > img {
+    align-self: center;
+    width: 100%;
+    padding: 60px 0;
   }
 }
