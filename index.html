@@ -33,6 +33,7 @@
         <div class="content">
           <div id="section1">
             <img
+              height="30%"
               src="images/hs-round.png"
               alt="photo of myself"
               id="headshot"
@@ -43,14 +44,24 @@
             </p>
           </div>
           <div id="section2">
-            <img src="images/code.png" alt="screenshot of javascript" />
+            <img
+              height="30%"
+              src="images/code.png"
+              alt="screenshot of javascript"
+              id="code"
+            />
             <p>
               I am most familiar with HTML, CSS, and Javascript (familiar with
               React) and continue to expand my working knowledge.
             </p>
           </div>
           <div id="section3">
-            <img src="images/Octocat.png" alt="github octocat" />
+            <img
+              height="30%"
+              src="images/Octocat.png"
+              alt="github octocat"
+              id="octocat"
+            />
             <p>
               Currently, I am in search of a development team to join. For an
               example of my work please reference my
@@ -60,5 +71,17 @@
         </div>
       </div>
     </div>
+    <script>
+      var isFirefox = typeof InstallTrigger !== 'undefined';
+      var headshot = document.getElementById('headshot');
+      var code = document.getElementById('code');
+      var octocat = document.getElementById('octocat');
+
+      if (isFirefox) {
+        headshot.removeAttribute('height');
+        code.removeAttribute('height');
+        octocat.removeAttribute('height');
+      }
+    </script>
   </body>
 </html>

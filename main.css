@@ -110,6 +110,8 @@ div.content > div#section1 > img,
 div.content > div#section2 > img,
 div.content > div#section3 > img {
   flex: 1;
+  width: 30%;
+  /* height: 30%; */
 }
 
 div.content > div#section1 > p,
@@ -119,12 +121,6 @@ div.content > div#section3 > p {
   font-size: 1.5em;
   margin: auto 0;
   padding: 0 30px;
-}
-
-img#headshot {
-  width: 400px;
-  height: max-content;
-  align-self: center;
 }
 
 /* ----- Older iPhones ----- */
