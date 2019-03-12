@@ -118,6 +118,14 @@ div.credit {
   font-size: 1em;
   text-align: center;
 }
+
+div#section3 a {
+  text-decoration: underline;
+}
+
+div#section3 a:hover {
+  text-decoration: none;
+}
 /* ----- Older iPhones ----- */
 
 @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
