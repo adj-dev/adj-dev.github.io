@@ -133,6 +133,14 @@ div#section3 a:hover {
     height: 60vh;
   }
 
+  .navlinks {
+    justify-content: space-between;
+  }
+
+  .navlinks a > img {
+    height: 30px;
+  }
+
   .logo {
     width: 100%;
     margin: 150px 0;
@@ -172,6 +180,14 @@ div#section3 a:hover {
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .banner {
     height: 60vh;
+  }
+
+  .navlinks {
+    justify-content: space-between;
+  }
+
+  .navlinks a > img {
+    height: 30px;
   }
 
   .logo {
