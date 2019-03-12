@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: rgb(80, 162, 255);
 }
 
 p {
@@ -29,7 +30,6 @@ a:visited {
   /* background: url(images/cover.jpg); */
   background-size: cover;
   justify-content: center;
-  background-color: rgb(80, 162, 255);
 }
 
 .logo {
@@ -45,14 +45,6 @@ a:visited {
   width: 900px;
 }
 
-/* ----- Gradient div ----- */
-
-.gradient {
-  height: 40vh;
-  /* background: rgb(146, 100, 255); */
-  background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(80, 162, 255));
-}
-
 /* ----- Navigation div ----- */
 
 .nav {
@@ -64,7 +56,6 @@ a:visited {
   display: flex;
   justify-content: flex-end;
   padding: 10px 20px;
-  background-color: rgb(80, 162, 255);
 }
 
 .navlinks a {
@@ -82,8 +73,6 @@ a:hover {
 
 .profile {
   padding-top: 50px;
-  /* background-color: rgb(255, 237, 157); */
-  background-color: rgb(80, 162, 255);
   padding-bottom: 200px;
 }
 
