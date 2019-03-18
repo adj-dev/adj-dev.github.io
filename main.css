@@ -184,7 +184,7 @@ div#section3 a:hover {
 
 /* ----- iPhone X  ----- */
 
-@media only screen and (min-width: 375px) and (max-width: 512px) {
+@media only screen and (min-width: 350px) and (max-width: 512px) {
   .banner {
     height: 60vh;
   }
