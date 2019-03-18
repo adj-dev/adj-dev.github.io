@@ -178,7 +178,7 @@ div#section3 a:hover {
 
 /* ----- iPhone X  ----- */
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-width: 375px) and (max-width: 512px) {
   .banner {
     height: 60vh;
   }
@@ -222,5 +222,11 @@ div#section3 a:hover {
     align-self: center;
     width: 100%;
     padding: 60px 0;
+  }
+
+  div.container > div.credit > span#font-credit {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 0.6em;
   }
 }
